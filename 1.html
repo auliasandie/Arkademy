@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Access an array value of a JSON object.</p>
+
+<p id="demo"></p>
+
+<script>
+var myObj, x;
+myObj = {
+  "name":"Aulia Sandie",
+  "age": 22,
+  "address" : "Jl. Pramuka No.98",
+  "hobbies" : "olahraga",
+  "is_married" : false,
+  "list_school" : [
+  		{"year_in" : "2010","year_out" : "2015","major" : "communication" }
+  ]
+  "skills" : [
+      {"skill_name":"Basket", "level" : "advanced" }
+  ]
+  "interest_in_coding" : true,
+  
+};
+x = JSON.stringify(myObj)
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>

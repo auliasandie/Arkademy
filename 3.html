@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Jawaban Soal No.3</h2>
+
+<p>Algoritmanya sbb : 
+1. Parameter di ubah ke array
+2. kemudian di urutkan
+3. setelah urut di ubah kembali ke string, dan dibuang tanda ","
+</p>
+
+<p id="demo"></p>
+
+<script>
+function bubble(arr) {
+      var len = arr.length;
+      var d = arr.replace(/[^0-9]/g, "")
+      console.log(d)
+      var str = d.match(/.{1,1}/g)
+        console.log(str)
+      
+      for (var i = 0; i < len ; i++) {
+        for(var j = 0 ; j < len - i - 1; j++){ 
+        if (str[j] > str[j + 1]) {
+          var temp = str[j];
+          str[j] = str[j+1];
+          str[j + 1] = temp;
+        }
+       }
+      }
+      var r = str.toString()
+      console.log(r)
+      return r.replace(/[^0-9]/g,"");
+    }
+document.getElementById("demo").innerHTML = bubble("ad349f217");
+</script>
+
+</body>
+</html>
+

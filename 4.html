@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Jawaban Soal No.4</h2>
+
+
+
+<p id="demo"></p>
+
+<script>
+function getThirdLast(arr) {
+      var len = arr.length;
+      var a =arr 
+      var temp
+      console.log(len)
+      for (var i = 0; i < len ; i++) {
+        for(var j = i+1 ; j < len ; j++){ 
+        if (a[i] > a[j]) {
+          temp = a[i];
+          a[i] = a[j]
+          a[j] = temp;
+        }
+       }
+      }
+      console.log(a)
+      return a[len-3]
+    }
+document.getElementById("demo").innerHTML = getThirdLast([1,7,8,4,5,6]);
+</script>
+
+</body>
+</html>
