@@ -26,3 +26,9 @@ Jawaban No. 6b <br>
 Untuk menjalankannya buka file "6b.html" pada browser. Jika ingin melihat hasil dari hapus atau edit bisa klik icon yang berada di baris Joko <br>
 Jawaban No. 6c <br>
 PASS <br>
+
+![Home](https://user-images.githubusercontent.com/55616470/65817856-4a0d2e80-e236-11e9-9bc9-fd2ffd11463b.png)
+![Add](https://user-images.githubusercontent.com/55616470/65817857-4aa5c500-e236-11e9-8410-b9af13e49e25.png)
+![Delete](https://user-images.githubusercontent.com/55616470/65817858-4aa5c500-e236-11e9-80a2-e38ab9e2af29.png)
+![Edit](https://user-images.githubusercontent.com/55616470/65817859-4aa5c500-e236-11e9-9396-523e3634868c.png)
+
